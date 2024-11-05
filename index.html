@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>The විචාරේ</title>
+    <link rel="icon" href="logo1.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Site Content (Initially Hidden) -->
+    <div id="mainContent" class="hidden">
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <a href="index.html" class="home-link">
+        <h1>The විචාරේ</h1>
+    </a>
+    <ul class="nav-links">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="#services">Our Services</a></li>
+    </ul>
+    <button id="darkModeToggle">Dark Mode</button>
+</nav>
+<div id="notification">
+    <p>අපගේ අලුත්ම updates සහ විචාර ලබා ගැනීමට අපගේ whatsapp channel එකට සම්බන්ධ වන්න 😊</p>
+    <button onclick="closeNotification()">No Thanks</button>
+    <a href="https://whatsapp.com/channel/0029VatV4w7CHDyqKCpNOm2z" target="_blank">
+        <button>Join Now</button>
+    </a>
+</div>
+        <!-- Download Content Section -->
+        <section class="content">
+            <h2>WHAT DO YOU WANT <br> (ඔබට අවශ්‍ය දේ මෙයින් තෝරා ගන්න) </h2>
+            <div class="paper-box">
+                <p>Grade 10 (විචාර)</p>
+           <!-- Button to Redirect to Download Papers Page -->
+           <a href="10.html" id="enterButton" class="button">Open Site</a>
+            </div>
+
+            <div class="paper-box">
+                <p>Grade 11 (විචාර)</p>
+           <!-- Button to Redirect to Download Papers Page -->
+           <a href="11.html" id="enterButton" class="button">Open Site</a>
+            </div>
+          <div class="paper-box">
+                <p>Papers</p>
+           <!-- Button to Redirect to Download Papers Page -->
+           <a href="papers.html" id="enterButton" class="button">Open Site</a>
+            </div>
+            <div class="paper-box">
+                <p>රචනා 🔴 ( COIMNG SOON ) </p>
+           <!-- Button to Redirect to Download Papers Page -->
+           <a href="#" id="enterButton" class="button">Open Site</a>
+            </div>
+
+            <div class="paper-box">
+                <p>සාහිත්‍ය හා රසාස්වාදය 🔴 ( COIMNG SOON )</p>
+           <!-- Button to Redirect to Download Papers Page -->
+           <a href="#" id="enterButton" class="button">Open Site</a>
+            </div>
+
+  
+            <!-- Additional paper boxes as needed -->
+            <button class="upload-btn">Upload</button>
+        </section>
+<!-- Sponsored Ad Section -->
+<div id="sponsoredAd" style="border: 2px solid #ccc; padding: 10px; margin: 20px; text-align: center;">
+    <h3>අපගේ අලුත්ම updates සහ විචාර ලබා ගැනීමට අපගේ whatsapp channel එකට සම්බන්ධ වන්න 😊</h3>
+    <a href="https://whatsapp.com/channel/0029VatV4w7CHDyqKCpNOm2z" target="_blank">
+        <img src="img/ad.png" alt="Sponsor Ad" style="max-width: 30%;">
+    </a>
+    <p>Join Now</p>
+</div>
+
+        <footer class="footer">
+            <footer class="bg-gray-800 text-white mt-12">
+                <div class="container mx-auto px-4 py-8">
+                    <div class="flex flex-col md:flex-row justify-between items-center">
+                        <div class="text-center md:text-left mb-4 md:mb-0">
+            <div class="footer-content">
+                <p>&copy; 2024 The විචාරේ. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Close the notification modal
+function closeNotification() {
+    document.getElementById('notification').style.display = 'none';
+}
+
+// Optional: Automatically hide the modal after a few seconds
+setTimeout(() => {
+    closeNotification();
+}, 10000); // Hides after 10 seconds
+
+</script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
